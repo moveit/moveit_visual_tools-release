@@ -1,0 +1,12 @@
+Source: ros-rolling-moveit-visual-tools
+Section: misc
+Priority: optional
+Maintainer: Dave Coleman <dave@picknik.ai>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake, ros-rolling-geometry-msgs, ros-rolling-graph-msgs, ros-rolling-moveit-common, ros-rolling-moveit-core, ros-rolling-moveit-ros-planning, ros-rolling-rclcpp, ros-rolling-rviz-visual-tools, ros-rolling-std-msgs, ros-rolling-tf2-eigen, ros-rolling-tf2-ros, ros-rolling-trajectory-msgs, ros-rolling-visualization-msgs, ros-rolling-ros-workspace
+Homepage: https://github.com/ros-planning/moveit_visual_tools
+Standards-Version: 3.9.2
+
+Package: ros-rolling-moveit-visual-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-geometry-msgs, ros-rolling-graph-msgs, ros-rolling-moveit-common, ros-rolling-moveit-core, ros-rolling-moveit-ros-planning, ros-rolling-rclcpp, ros-rolling-rviz-visual-tools, ros-rolling-std-msgs, ros-rolling-tf2-eigen, ros-rolling-tf2-ros, ros-rolling-trajectory-msgs, ros-rolling-visualization-msgs, ros-rolling-ros-workspace
+Description: Helper functions for displaying and debugging MoveIt data in Rviz via published markers
