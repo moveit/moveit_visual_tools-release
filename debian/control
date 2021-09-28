@@ -1,0 +1,12 @@
+Source: ros-galactic-moveit-visual-tools
+Section: misc
+Priority: optional
+Maintainer: Dave Coleman <dave@picknik.ai>
+Build-Depends: debhelper (>= 9.0.0), ros-galactic-ament-cmake, ros-galactic-geometry-msgs, ros-galactic-graph-msgs, ros-galactic-moveit-common, ros-galactic-moveit-core, ros-galactic-moveit-ros-planning, ros-galactic-rclcpp, ros-galactic-rviz-visual-tools, ros-galactic-std-msgs, ros-galactic-tf2-eigen, ros-galactic-tf2-ros, ros-galactic-trajectory-msgs, ros-galactic-visualization-msgs, ros-galactic-ros-workspace
+Homepage: https://github.com/ros-planning/moveit_visual_tools
+Standards-Version: 3.9.2
+
+Package: ros-galactic-moveit-visual-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-galactic-geometry-msgs, ros-galactic-graph-msgs, ros-galactic-moveit-common, ros-galactic-moveit-core, ros-galactic-moveit-ros-planning, ros-galactic-rclcpp, ros-galactic-rviz-visual-tools, ros-galactic-std-msgs, ros-galactic-tf2-eigen, ros-galactic-tf2-ros, ros-galactic-trajectory-msgs, ros-galactic-visualization-msgs, ros-galactic-ros-workspace
+Description: Helper functions for displaying and debugging MoveIt data in Rviz via published markers
